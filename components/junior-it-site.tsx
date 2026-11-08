@@ -25,7 +25,22 @@ export function JuniorITSite() {
         <header className="site-header"><Logo /><nav className={menuOpen ? 'open' : ''}><a href="#why">Про навчання</a><a href="#practice">Як це працює</a><a href="#contact">Контакти</a></nav><button className="menu-button" onClick={() => setMenuOpen(!menuOpen)} aria-label="Відкрити меню">{menuOpen ? <X /> : <Menu />}</button></header>
         <div className="hero-content">
           <div className="registration-wrap">
-            <div id="leeloo_action_element" className="leeloo-hash-giethu" suppressHydrationWarning />
+            <div id="leeloo_action_element" className="leeloo-hash-giethu">
+              <div className="leeloo-lgt-form-wrapper">
+                <iframe
+                  className="leeloo-lgt-form"
+                  id="leeloo-form-iframe-giethu"
+                  src="https://wep.wf/giethu"
+                  style={{
+                    border: '0px',
+                    width: '100%',
+                    height: '520px',
+                    display: 'block',
+                  }}
+                  title="Реєстрація на пробне заняття"
+                />
+              </div>
+            </div>
           </div>
           <div className="hero-copy">
             <div className="eyebrow"><span className="eyebrow-dot" /> Від користування технологіями — до власних цифрових проєктів</div>
