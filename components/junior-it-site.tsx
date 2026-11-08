@@ -48,10 +48,10 @@ export function JuniorITSite() {
           <div className="hero-copy">
             <div className="eyebrow"><span className="eyebrow-dot" /> Від користування технологіями — до власних цифрових проєктів</div>
             <h1>Програмування, AI та практичні цифрові навички через <mark>створення власних проєктів</mark></h1>
-            <div className="pills">
-              <span>🤖 Програмування + AI</span>
-              <span>🚀 Власні цифрові проєкти</span>
-              <span>🧠 Логіка, критичне мислення та самостійність</span>
+            <div className="scattered-pills">
+              <span className="pill pill-1">🤖 Програмування + AI</span>
+              <span className="pill pill-2">🚀 Власні цифрові проєкти</span>
+              <span className="pill pill-3">🧠 Логіка, критичне мислення та самостійність</span>
             </div>
           </div>
         </div>
